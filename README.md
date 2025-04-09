@@ -160,5 +160,4 @@ Un article complet est publié sur une plateforme de partage de projets open-sou
     etc.)
 
 
-Ce guide résume l’utilisation de notre système de surveillance OpenRuche, à destination 
-des apiculteurs et des acteurs de la protection des abeilles.
+# Ce guide résume l’utilisation de notre système de surveillance OpenRuche, à destination des apiculteurs et des acteurs de la protection des abeilles.
