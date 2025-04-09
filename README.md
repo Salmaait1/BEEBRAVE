@@ -87,9 +87,9 @@ Exemple de Payload Formatter (en JavaScript) :
     
     errors: [] 
     
-  }; 
+          }; 
   
-} 
+        } 
 Le champ key correspond à l’identifiant unique de votre ruche sur BEEP. Il peut être trouvé dans 
 l’interface BEEP > Appareils > Modifier > Champ “identifiant unique”.
 
