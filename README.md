@@ -157,6 +157,8 @@ Un article complet est publié sur une plateforme de partage de projets open-sou
   3. Attendre la connexion automatique à TTN 
   4. Visualiser les données sur BEEP 
   5. Intervenir en cas d’alerte (baisse de poids, attaque de frelon, température anormale, 
-    etc.) 
+    etc.)
+
+
 Ce guide résume l’utilisation de notre système de surveillance OpenRuche, à destination 
 des apiculteurs et des acteurs de la protection des abeilles.
