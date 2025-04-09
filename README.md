@@ -3,9 +3,8 @@
 # Contexte & Objectif du projet 
 
 OpenRuche est un système de surveillance autonome et intelligent conçu pour protéger et 
-suivre à distance les colonies d’abeilles. Grâce à l’intégration de capteurs multiples, d’une 
-intelligence artificielle embarquée, et d’un système de communication LoRaWAN, le projet 
-permet : 
+suivre à distance les colonies d’abeilles. Grâce à l’intégration de capteurs multiples, d’une intelligence artificielle embarquée, et d’un système de communication LoRaWAN, le projet permet : 
+
         • Un suivi temps réel des paramètres clés de la ruche (température, humidité, poids, 
           activité). 
           
@@ -20,9 +19,9 @@ la plateforme BEEP.
 
 # Accès aux données (The Things Network) 
 
-Le système OpenRuche utilise le réseau LoRaWAN via The Things Network (TTN) pour 
-transmettre les données de la ruche en temps réel. 
+Le système OpenRuche utilise le réseau LoRaWAN via The Things Network (TTN) pour transmettre les données de la ruche en temps réel. 
 Informations de connexion TTN : 
+
     - Lien : https://eu1.cloud.thethings.network/console 
     
     - Email : idriliza@gmail.com 
@@ -66,9 +65,12 @@ de configurer un Payload Formatter dans TTN (TTS v3).
       
       o Mot de passe : Sigfox21# 
 
-     Exemple de Payload Formatter (en JavaScript) : 
+    
+Exemple de Payload Formatter (en JavaScript) : 
+
      
-function decodeUplink(input) { 
+        function decodeUplink(input) { 
+        
     var data = {}; 
     
     data.key = "ecbawllr2r3xxxx"; // identifiant unique de la ruche dans BEEP 
@@ -112,9 +114,8 @@ consommation.
   
   • Recharge : Panneau solaire connecté via contrôleur de charge 
   
-  • Temporisation : Coupure automatique de l’alimentation des broches toutes les 10 minutes à l’aide d’un régulateur REG09P, utilisé pour couper uniquement l’alimentation 
+  • Temporisation : Coupure automatique de l’alimentation des broches toutes les 10 minutes à l’aide d’un régulateur REG09P, utilisé pour couper uniquement l’alimentation des capteurs (la carte MKR WAN reste sous tension). 
   
-    des capteurs (la carte MKR WAN reste sous tension). 
   • Mesure de consommation via Otii : 
   
       o Autonomie observée sans panneau : ~4.6 jours 
