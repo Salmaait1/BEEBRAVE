@@ -20,13 +20,13 @@ la plateforme BEEP.
 Le système OpenRuche utilise le réseau LoRaWAN via The Things Network (TTN) pour 
 transmettre les données de la ruche en temps réel. 
 Informations de connexion TTN : 
-    • Lien : https://eu1.cloud.thethings.network/console 
-    • Email : idriliza@gmail.com 
-    • Mot de passe : FarahSalmaWassim4! 
-    • Nom de l'application TTN : openruche 
-    • Nom du device : mkrwan118 
-    • AppEUI : 0000000000000000 
-    • AppKey : 70C141C1E9629690E70ACF0077435A69 
+    - Lien : https://eu1.cloud.thethings.network/console 
+    - Email : idriliza@gmail.com 
+    - Mot de passe : FarahSalmaWassim4! 
+    - Nom de l'application TTN : openruche 
+    - Nom du device : mkrwan118 
+    - AppEUI : 0000000000000000 
+    - AppKey : 70C141C1E9629690E70ACF0077435A69 
 Les données sont envoyées automatiquement toutes les 10 minutes depuis la ruche.
 #
 # Visualisation des données sur BEEP 
